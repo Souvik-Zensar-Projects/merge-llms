@@ -27,15 +27,17 @@ ls -lh
 ---
 
 ## model dirs
+```bash
 Mistral-7B-v0.1
 CodeLlama-7b-Python
 deepseek-llm-7b-v2
 starcoder2-7b
 Mixtral-8x7B
-
+```
 ---
 
 ## model paths
+```bash
 model_paths = {
     "mistral_7b": "./Mistral-7B-v0.1",
     "codellama_python": "./CodeLlama-7b-Python",
@@ -43,7 +45,7 @@ model_paths = {
     "starcoder2": "./starcoder2-7b",
     "mistral_large_2": "./Mixtral-8x7B"
 }
-
+```
 ---
 
 ## run merging code
